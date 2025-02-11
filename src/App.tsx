@@ -1,13 +1,13 @@
+import Content from './content'
 import Header from './header'
 
-function App() {
-
-  
+function App() { 
 
   return (
     <>
-      <div className="flex flex-row rounded-2xl">
+      <div className="flex gap-0 flex-row">
         <Header/>
+        <Content/>
       </div>
     </>
   )
