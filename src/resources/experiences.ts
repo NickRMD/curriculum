@@ -14,7 +14,7 @@ const experiences: experienceList = [
   },
   {
     project: "Nexsi",
-    months: 13,
+    months: 12,
     description: `
     Neste outro projeto fiz o uso de Express.js, AWS (SQS e Lambda), Oracle Object Storage, Golang (linguagem de programação), React (usando Vite),
     PostgreSQL, CockroachDB e diversas outras tecnologias para codificação e documentação do sistema que conectava ERPs com a loja da Nexsi em diversos marketplaces, 
