@@ -1,0 +1,15 @@
+
+
+
+const personalProjects = [
+  {
+    children: "SquidVM",
+    href: "https://github.com/Fragmenta-Company/SquidVM"
+  },
+  {
+    children: "Create A Critique",
+    href: "https://github.com/NickRMD/create-a-critique"
+  }
+]
+
+export default personalProjects;
