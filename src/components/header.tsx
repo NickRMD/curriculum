@@ -8,11 +8,9 @@ import AbilityItem from "../components/abilityItem";
 import abilities from "../resources/abilities";
 import SocialNetworks from "../components/socialNetworks";
 import socialNetworkList from "../resources/socialNetworks";
-
-const languages = [
-  { name: "Português", level: "Nativo" },
-  { name: "Inglês", level: "Avançado" },
-];
+import PersonalProjects from "./personalProjects";
+import personalProjects from "../resources/personalProject";
+import languages from "../resources/languages";
 
 export default function Header() {
 
@@ -22,13 +20,13 @@ export default function Header() {
         flex flex-col 
         bg-emerald-950 rounded-tl-md 
         rounded-bl-md ml-2 
-        mt-2 mb-2 
+        mt-2 mb-2 pl-4 pr-4
         px-2.5 h-[calc(100vh-1rem)] 
         w-[40rem] sm:w-[32rem] md:w-[34rem] lg:w-[28rem] xl:w-[26rem]
         py-2 gap-2 
         text-white`}>
         <div className="flex text-center justify-center">
-          <img src={avatar} className="size-32 rounded-full"/>
+          <img src={avatar} className="size-32 object-cover object-right rounded-full select-none"/>
         </div>
         <h1 className="text-4xl text-emerald-300 text-justify">
           Nícolas Renan<div className="text-3xl  text-emerald-100">Machado Dias</div>
@@ -79,6 +77,13 @@ export default function Header() {
               ))
             }
           </ul>
+        </div>
+        <div>
+          <div className="flex items-center gap-1">
+            <img className="size-5 select-none white-svg" alt="Ícone de linguagens" src={science}/>
+            <h2 className="text-emerald-300">Projetos pessoais</h2>
+          </div>
+          <PersonalProjects personalProjects={personalProjects}/>
         </div>
       </header>
     </>
