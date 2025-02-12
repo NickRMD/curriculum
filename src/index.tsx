@@ -1,7 +1,7 @@
-import Content from './content'
-import Header from './header'
+import Content from './components/content'
+import Header from './components/header'
 
-function App() { 
+function Index() { 
 
   return (
     <>
@@ -13,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+export default Index
