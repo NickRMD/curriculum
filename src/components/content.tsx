@@ -7,16 +7,16 @@ export default function Content() {
     <>
       <main className="flex flex-col rounded-tr-md rounded-br-md h-[calc(100vh-1rem)] px-2.5 py-2 w-screen mr-2 mt-2 mb-2 bg-stone-300">
         <div className="flex flex-col p-1 border-b border-black" id="resumo">
-          <h1 className="text-xl text-black rounded-md">Resumo</h1>
+          <h1 className="text-xl text-black rounded-md">Professional Summary</h1>
           <p>
-            Programador com experiência em diversas linguagens de programação como por exemplo: Javascript, Typescript, Rust, Go (Golang),
-            PHP e C (neste último ainda aprendendo). Tive duas experiências profissionais completas até o momento, trabalhando com ao menos
-            algumas das linguagens citadas e em meu tempo livre utilizando-se de minhas habilidades em meus repositórios do&nbsp;
-            <a target="_blank" href="https://github.com/NickRMD">GitHub</a>.
+            Programmer with experience in several languages, including JavaScript, TypeScript, Rust, Go (Golang), PHP, 
+            and C (currently still learning the latter). I have had two full professional experiences so far, working with at least
+            some of the languages mentioned. In my free time, I apply my skills to my&nbsp;
+            <a target="_blank" className="text-emerald-900" href="https://github.com/NickRMD">GitHub</a> repositories.
           </p>
         </div>
         <div className="p-1">
-          <h2 className="text-xl">Experiências profissionais</h2>
+          <h2 className="text-xl">Professional experiences</h2>
           <ul className="flex gap-2 flex-col">
             {
               experiences.map(

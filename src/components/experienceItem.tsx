@@ -14,15 +14,15 @@ export default function ExperienceItem(props: experienceItemProps) {
   return (
     <li className={`flex flex-col gap-0.5 ${props.className}`}>
       <div className="flex items-center gap-1" >
-        <img className="size-5 select-none" alt="Ícone indicando projeto" src={project}/>
+        <img className="size-5 select-none" alt="Icon indicating project" src={project}/>
         <h3>{props.project}</h3>
       </div>
       <div className="flex items-center gap-1" >
-        <img className="size-5 select-none" alt="Ícone indicando tempo" src={clock}/>
-        <h3>{props.months} meses</h3>
+        <img className="size-5 select-none" alt="Icon indicating time" src={clock}/>
+        <h3>{props.months} months</h3>
       </div>
       <div className="flex items-start gap-1" >
-        <img className="size-5 select-none" alt="Ícone indicando descrição" src={description}/>
+        <img className="size-5 select-none" alt="Icon indicating description" src={description}/>
         <p>{props.description}</p>
       </div>
     </li>

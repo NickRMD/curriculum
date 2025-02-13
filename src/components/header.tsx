@@ -29,19 +29,19 @@ export default function Header() {
           <img src={avatar} className="size-32 object-cover object-right rounded-full select-none"/>
         </div>
         <h1 className="text-4xl text-emerald-300 text-justify">
-          Nícolas Renan<div className="text-3xl  text-emerald-100">Machado Dias</div>
+          Nicolas Renan<div className="text-3xl  text-emerald-100">Machado Dias</div>
         </h1>
         <div className="flex flex-col gap-0.5">
           <div className="flex items-center gap-1">
-            <img className="size-5 select-none white-svg" alt="Ícone para representar contatos" src={contact}/>
-            <h2 className="text-emerald-300">Contatos</h2>
+            <img className="size-5 select-none white-svg" alt="Contact icon" src={contact}/>
+            <h2 className="text-emerald-300">Contacts</h2>
           </div>
           <SocialNetworks socialNetworks={socialNetworkList}/>
         </div>
         <div className="flex flex-col gap-1">
           <div className="flex items-center gap-1">
-            <img className="size-5 select-none white-svg" alt="Ícone para representar linguagens" src={language}/>
-            <h2 className="text-emerald-300">Linguagens</h2>
+            <img className="size-5 select-none white-svg" alt="Language icon" src={language}/>
+            <h2 className="text-emerald-300">Languages</h2>
           </div>
           <ul className="pl-2 border-l border-white space-y-1">
             {languages.map(({ name, level }, i) => (
@@ -54,7 +54,7 @@ export default function Header() {
                   ${languages[i+1] ? "border-white pb-0.5" : "border-transparent"} border-b
                 `}>
                 <span>{name}</span>
-                <span className="text-center"><img className="size-7 select-none white-svg" alt="Laço" src={lasso}/></span>
+                <span className="text-center"><img className="size-7 select-none white-svg" alt="Lasso" src={lasso}/></span>
                 <span>{level}</span>
               </li>
               ))}
@@ -62,8 +62,8 @@ export default function Header() {
         </div>
         <div>
           <div className="flex items-center gap-1">
-            <img className="size-5 select-none white-svg" alt="Ícone de linguagens" src={science}/>
-            <h2 className="text-emerald-300">Habilidades e competências</h2>
+            <img className="size-5 select-none white-svg" alt="Science icon" src={science}/>
+            <h2 className="text-emerald-300">Skills and competencies</h2>
           </div>
           <ul className="flex flex-col gap-0.5 mt-0.5 pl-1 ml-0.5 border-l border-white">
             {
@@ -80,8 +80,8 @@ export default function Header() {
         </div>
         <div>
           <div className="flex items-center gap-1">
-            <img className="size-5 select-none white-svg" alt="Ícone de linguagens" src={science}/>
-            <h2 className="text-emerald-300">Projetos pessoais</h2>
+            <img className="size-5 select-none white-svg" alt="Science icon" src={science}/>
+            <h2 className="text-emerald-300">Personal projects</h2>
           </div>
           <PersonalProjects personalProjects={personalProjects}/>
         </div>

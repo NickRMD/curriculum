@@ -8,25 +8,25 @@ type socialNetworkListType = socialNetworkProps[];
 
 const socialNetworkList: socialNetworkListType = [
   {
-    alt: "Ícone do GitHub",
+    alt: "GitHub icon",
     src: github,
     href: "https://github.com/NickRMD",
     children: "GitHub"
   },
   {
-    alt: "Ícone para representar o aplicativo Linkedin",
+    alt: "Linkedin icon",
     src: linkedin,
     href: "https://www.linkedin.com/in/nicolas-renan-machado-dias/",
     children: "Linkedin",
   },
   {
-    alt: "Ícone para representar o aplicativo Whatsapp",
+    alt: "Whatsapp icon",
     src: whatsapp,
     href: "https://wa.me/5551995896904/",
     children: "+55 51 9 9589-6904"
   },
   {
-    alt: "Ícone para representar o email",
+    alt: "Email icon",
     src: email,
     href: "mailto:nicolasrenanmachado@gmail.com",
     children: "nicolasrenanmachado@gmail.com"

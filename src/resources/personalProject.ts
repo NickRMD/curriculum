@@ -11,7 +11,7 @@ const personalProjects = [
     href: "https://github.com/NickRMD/create-a-critique"
   },
   {
-    children: "Este currículo",
+    children: "This curriculum",
     href: "https://github.com/NickRMD/curriculum"
   }
 ]

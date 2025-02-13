@@ -1,6 +1,6 @@
 const languages = [
-  { name: "Português", level: "Nativo" },
-  { name: "Inglês", level: "Avançado" },
+  { name: "Portuguese", level: "Native" },
+  { name: "English", level: "Advanced" },
 ];
 
 export default languages;

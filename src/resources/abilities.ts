@@ -11,38 +11,38 @@ type abilityListType = AbilityProps[];
 
 const abilities: abilityListType = [
   {
-    children: "Trabalho em equipe com uso de metodologias ágeis como Kanban",
-    alt: "Ícone de rede",
+    children: "Teamwork with agile methodologies like Kanban",
+    alt: "Web icon",
     src: grid
   },
   {
-    children: "Adaptabilidade as tecnologias utilizadas",
-    alt: "Ícone de configurações",
+    children: "Adaptability to different technologies",
+    alt: "Configuration icon",
     src: config
   },
   {
-    children: "LibreOffice e outros pacotes do tipo (como Microsoft Office)",
-    alt: "Ícone para representar aplicativos de escritório (office)",
+    children: "LibreOffice and other similar packages (e.g. Microsoft Office)",
+    alt: "Icon representing office applications",
     src: office
   },
   {
-    children: "Resolução de problemas",
-    alt: "Engrenagem",
+    children: "Problem-solving",
+    alt: "Cog/Gear",
     src: cog
   },
   {
-    children: "Excalidraw (para montagem de fluxos utilizados)",
-    alt: "Ícone de seleção",
+    children: "Excalidraw (for creating the necessary workflows)",
+    alt: "Selection icon",
     src: draw
   },
   {
     children: "Trello",
-    alt: "Logo do Trello",
+    alt: "Trello's logo",
     src: trello
   },
   {
-    children: "Git, GitHub, GitLab, Gitea e etc.",
-    alt: "Função de branch do Git",
+    children: "Git and related platforms (GitHub, GitLab, Gitea, etc.)",
+    alt: "Branch git function",
     src: git
   }
 ];
