@@ -12,7 +12,7 @@ const personalProjects = [
   },
   {
     children: "This curriculum",
-    href: "https://github.com/NickRMD/curriculum"
+    href: "https://github.com/NickRMD/curriculum/tree/english"
   }
 ]
 
