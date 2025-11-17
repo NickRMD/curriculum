@@ -10,8 +10,8 @@ export default function Content() {
           <h1 className="text-xl text-black rounded-md">Resumo</h1>
           <p>
             Programador com experiência em diversas linguagens de programação como por exemplo: Javascript, Typescript, Rust, Go (Golang),
-            PHP e C (neste último ainda aprendendo). Tive duas experiências profissionais completas até o momento, trabalhando com ao menos
-            algumas das linguagens citadas e em meu tempo livre utilizando-se de minhas habilidades em meus repositórios do&nbsp;
+            PHP e C (neste último ainda aprendendo). Tive três experiências profissionais completas até o momento, trabalhando com boa parte
+            das linguagens citadas e em meu tempo livre utilizando-se de minhas habilidades em meus repositórios do&nbsp;
             <a target="_blank" href="https://github.com/NickRMD">GitHub</a>.
           </p>
         </div>
@@ -21,7 +21,7 @@ export default function Content() {
             {
               experiences.map(
                 (exp, i) => <
-                ExperienceItem 
+                  ExperienceItem
                   key={i}
                   className={`text-base ${experiences[i+1] ? "border-b pb-1" : null}`}
                   project={exp.project}
