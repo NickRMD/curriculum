@@ -3,6 +3,10 @@
 
 const personalProjects = [
   {
+    children: "SQM (Simple Query Maker)",
+    href: "https://github.com/NickRMD/queryMaker"
+  },
+  {
     children: "SquidVM",
     href: "https://github.com/Fragmenta-Company/SquidVM"
   },

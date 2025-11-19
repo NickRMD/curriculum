@@ -5,6 +5,7 @@ import cog from "../assets/cog.svg";
 import draw from "../assets/draw.svg";
 import trello from "../assets/trello.svg";
 import git from "../assets/git-branch.svg";
+import bot from "../assets/robot.svg";
 import { AbilityProps } from "../components/abilityItem";
 
 type abilityListType = AbilityProps[];
@@ -44,6 +45,11 @@ const abilities: abilityListType = [
     children: "Git and related platforms (GitHub, GitLab, Gitea, etc.)",
     alt: "Branch git function",
     src: git
+  },
+  {
+    children: "Bots de Discord para automação de tarefas",
+    alt: "Ícone de rede",
+    src: bot
   }
 ];
 
