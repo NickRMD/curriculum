@@ -18,7 +18,7 @@ const socialNetworkList: socialNetworkListType = [
     alt: "Ícone para representar o aplicativo Linkedin",
     src: linkedin,
     href: "https://www.linkedin.com/in/nicolas-renan-machado-dias/",
-    children: "Linkedin",
+    children: "LinkedIn",
   },
   {
     alt: "Ícone para representar o aplicativo Whatsapp",

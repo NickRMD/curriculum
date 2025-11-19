@@ -12,7 +12,7 @@ export default function Content() {
             Programador com experiência em diversas linguagens de programação como por exemplo: Javascript, Typescript, Rust, Go (Golang),
             PHP e C (neste último ainda aprendendo). Tive três experiências profissionais completas até o momento, trabalhando com boa parte
             das linguagens citadas e em meu tempo livre utilizando-se de minhas habilidades em meus repositórios do&nbsp;
-            <a target="_blank" href="https://github.com/NickRMD">GitHub</a>.
+            <a className="text-emerald-950 duration-200 transition-all hover:text-emerald-600" target="_blank" href="https://github.com/NickRMD">GitHub</a>.
           </p>
         </div>
         <div className="p-1">
@@ -27,6 +27,7 @@ export default function Content() {
                   project={exp.project}
                   description={exp.description}
                   months={exp.months}
+                  start={exp.start}
                 />
               )
             }
