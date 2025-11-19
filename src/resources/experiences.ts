@@ -36,7 +36,7 @@ const experiences: experienceList = [
     // `
     /// Shortened description to fit better
     description: `
-      In this project, I utilized Express.js, AWS (SQS and Lambda), Oracle Object Storage, Golang (programming language), React (using Vite),
+      In this other project, I utilized Express.js, AWS (SQS and Lambda), Oracle Object Storage, Golang (programming language), React (using Vite),
       PostgreSQL, CockroachDB, Redis and several other technologies to develop and document a system that connected ERPs to Nexsi across various marketplaces,
       such as Mercado Livre, Magazine Luiza, and others. This system facilitated the sale of products from users registered on Nexsi. 
       Artificial Intelligence was also planned to be used to enhance product listings by adding missing information and other necessary fields.
@@ -50,11 +50,11 @@ const experiences: experienceList = [
       year: 2025
     },
     description: `
-      Neste projeto utilizei Angular para front com utilização de CoreUI, Bootstrap, outras bibliotecas para criação de front-end interativo e responsivo,
-      também foi utilizado Node.js com NestJS para o backend, utilizando PostgreSQL como database. Foi trabalhado com diversos sistemas internos, consegui
-      neste projeto além de aprimorar meus conhecimentos em Angular, aprender NestJS e aprofundar meus conhecimentos em PostgreSQL, consegui também fazer com que
-      o sistema fosse mais seguro por diversos patches de segurança que fiz e apontei, e também melhorei a performance em diversos pontos dos sistemas utilizados internamente.
-      Utilizei também minha biblioteca própria (SQM) para facilitar a criação de queries SQL para o banco de dados utilizado.
+      In this project I used Angular for the frontend with CoreUI, Bootstrap, and other libraries to build an interactive and responsive UI.
+      Node.js with NestJS was used for the backend, with PostgreSQL as the database. I worked with several internal systems; besides improving
+      my Angular skills, I learned NestJS and deepened my PostgreSQL knowledge. I also made the system more secure by implementing and
+      identifying several security patches, and improved performance in various areas of the internal systems. I also used my own library (SQM)
+      to simplify creating SQL queries for the database.
     `
   }
 ];
