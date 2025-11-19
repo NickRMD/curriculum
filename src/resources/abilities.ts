@@ -48,7 +48,7 @@ const abilities: abilityListType = [
   },
   {
     children: "Bots de Discord para automação de tarefas",
-    alt: "Ícone de rede",
+    alt: "Ícone de robô para representar bots",
     src: bot
   }
 ];
