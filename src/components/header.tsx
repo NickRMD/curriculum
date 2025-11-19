@@ -26,7 +26,7 @@ export default function Header() {
         py-2 gap-2 
         text-white`}>
         <div className="flex text-center justify-center">
-          <img src={avatar} alt="Foto de Nícolas Renan" className="size-32 object-cover object-right rounded-full select-none"/>
+          <img src={avatar} alt="Nícolas Renan picture" className="size-32 object-cover object-right rounded-full select-none"/>
         </div>
         <h1 className="text-4xl text-emerald-300 text-justify">
           Nicolas Renan<div className="text-3xl  text-emerald-100">Machado Dias</div>
