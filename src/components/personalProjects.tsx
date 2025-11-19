@@ -3,7 +3,7 @@ import project from "../assets/project2.svg";
 
 interface personalProjectListProps {
   personalProjects: personalProjectProps[],
-  listClasses: string
+  listClasses?: string
 }
 
 export default function PersonalProjects(props: personalProjectListProps) {

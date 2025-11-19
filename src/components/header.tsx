@@ -26,7 +26,7 @@ export default function Header() {
         py-2 gap-2 
         text-white`}>
         <div className="flex text-center justify-center">
-          <img src={avatar} className="size-32 object-cover object-right rounded-full select-none"/>
+          <img src={avatar} alt="Foto de Nícolas Renan" className="size-32 object-cover object-right rounded-full select-none"/>
         </div>
         <h1 className="text-4xl text-emerald-300 text-justify">
           Nícolas Renan<div className="text-3xl  text-emerald-100">Machado Dias</div>
@@ -57,7 +57,7 @@ export default function Header() {
                 <span className="text-center"><img className="size-7 select-none white-svg" alt="Laço" src={lasso}/></span>
                 <span>{level}</span>
               </li>
-              ))}
+            ))}
           </ul>
         </div>
         <div>
